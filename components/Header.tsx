@@ -1,10 +1,24 @@
 import React from 'react'
+import Link from "next/Link";
 
 function Header() {
   return (
-    <div>
-        <h1>I am a header</h1>
-    </div>
+    <header>
+       <div className='flex items-center space-x-5'>
+        <Link href="/">
+        <img className='w-44 object-contain cursor-pointer' src="https://links.papareact.com/yvf" alt="" />
+        </Link>
+      <div className='hidden md:inline-flex items-center space-x-5'>
+        <h3>About</h3>
+        <h3>Contact</h3>
+        <h3 className='text-whtie bg-blue-600 px-4 py-1 rounded-full'>Follow</h3>
+      </div>
+
+       </div>
+       <div>
+
+       </div>
+    </header>
   )
 }
 
