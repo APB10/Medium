@@ -33,7 +33,7 @@ function Post({ post }: Props) {
             Published at {new Date(post._createdAt).toLocaleString()}
           </p>
         </div>
-        <div>
+        <div className="mt-10">
           <PortableText
             dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
             projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
@@ -46,7 +46,7 @@ function Post({ post }: Props) {
                 <h1 className="my-5 text-xl font-bold" {...props} />
               ),
               li: (children: any) => (
-                <li className="ml-4 list-disc">{...children}</li>
+                <li className="ml-4 list-disc">{children}</li>
               ),
               link: ({ href, children }: any) => (
                 <a href={href} className="text-blue-500 hover:underline">
@@ -57,6 +57,7 @@ function Post({ post }: Props) {
           />
         </div>
       </article>
+      <hr className="mx-auo my-5 max-w-lg border border-yellow-500"></hr>
     </main>
   )
 }
