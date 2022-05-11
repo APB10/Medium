@@ -11,8 +11,7 @@ sanity-medium/node_modules
 /coverage
 
 # next.js
-/.next/
-/out/
+
 
 # production
 /build
