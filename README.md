@@ -1,10 +1,13 @@
-# Next.js + Tailwind CSS Example
+# Medium project
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A medium clone project used to post blog content by other users from sanity CMS. Also, allowing public to post comments within each blog 
+but requires approval first from Sanity to be displayed. 
+
+Hosted on vercel and sanity
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Live demo below 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+[![View Demo](https://vercel.com/button)](https://medium-apb10.vercel.app/)
 
